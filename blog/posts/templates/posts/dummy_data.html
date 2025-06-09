@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DUMMY TESTING</title>
+  </head>
+  <body>
+    <h1>This is the DUMMY DATA page</h1>
+    {%for post in data %} 
+    {% if post.age > 25 %}
+    <h2>{{post.email}}</h2>
+    {% else %} 
+    <mark>{{post.name}} is not eligible </mark>
+    {%endif%} 
+    {%empty%}
+    {%endfor %}
+  </body>w
+</html>
