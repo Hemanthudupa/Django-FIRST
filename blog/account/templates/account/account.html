@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    {% extends "global.html" %} {% block content %}
+
+    <h1>THIS IS THE ACCOUNT PAGE</h1>
+    <p>{{username}} is the username of the user</p>
+    <p>{{password}} is the password of the user</p>
+    {% endblock content %}
+  </body>
+</html>

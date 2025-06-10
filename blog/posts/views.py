@@ -64,3 +64,7 @@ def getDummyData(request):
     return render(request, 'posts/dummy_data.html', {
         "data": dummy_data,
     })
+
+
+def global_view(request):
+    return render(request, 'global.html')

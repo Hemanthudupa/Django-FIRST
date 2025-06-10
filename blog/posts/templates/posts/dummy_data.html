@@ -6,6 +6,10 @@
     <title>DUMMY TESTING</title>
   </head>
   <body>
+
+   {% extends "global.html" %}
+
+   {% block content %}
     <h1>This is the DUMMY DATA page</h1>
     {%for post in data %} 
     {% if post.age > 25 %}
@@ -15,5 +19,11 @@
     {%endif%} 
     {%empty%}
     {%endfor %}
+
+    {% endblock content %}
+
+
+
+    <a href="{% url "home" %}"> home </a>
   </body>w
 </html>
