@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+*.virtualenv
+
+# Python Compiled Files
+*.pyc
+__pycache__/
+
+# Django Specific
+db.sqlite3
+*.log
+*.pid
+
+# Migrations (Optional, but usually kept)
+*/migrations/*.pyc
+
+# Environment & Secret Files
+.env
+.settings/
+
+# Static and Media Files
+staticfiles/
+media/
+
+# Editor & IDE Configs
+.vscode/
+.idea/
+
+# Temporary Files & Caches
+*.swp
+*.swo
+.DS_Store
