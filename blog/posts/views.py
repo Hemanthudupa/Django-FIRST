@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from rest_framework.views import APIView
 
 # Create your views here.
 
@@ -68,3 +69,5 @@ def getDummyData(request):
 
 def global_view(request):
     return render(request, 'global.html')
+
+
